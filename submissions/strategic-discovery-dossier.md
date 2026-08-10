@@ -50,6 +50,5 @@ Legacy Trust’s debt recovery process relies on spreadsheets, email trails, and
 
 ## 5. Final problem statement
 
-End with a concise problem statement in your own words.
+Legacy Trust’s debt recovery process is struggling to scale because agents rely on disconnected spreadsheets, email trails, and a legacy collections database to manage over 100,000 delinquent accounts. This creates avoidable manual work, duplicate activity, missed follow-ups, and inconsistent account statuses, reducing agent capacity and potentially contributing to revenue leakage. The immediate problem is not simply a lack of digital technology. It is an inefficient and fragmented recovery workflow. Legacy Trust needs to identify which high-volume, rules-driven activities can be safely simplified or automated, while keeping complex cases with agents, and prove that the highest-value opportunities can deliver measurable operational and financial benefits within 12 months.
 
-> Tip: if your statement still sounds like 'the bank needs digital transformation,' it is too broad.
