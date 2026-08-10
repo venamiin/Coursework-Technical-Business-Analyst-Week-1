@@ -17,12 +17,19 @@ Legacy Trust’s debt recovery process relies on spreadsheets, email trails, and
 
 ## 3. Discovery questions
 
-Write 5-7 questions that point toward evidence.
+1. Which steps in the current debt recovery process create the most delays, duplicate activity, and manual effort?
 
-Starter examples:
-- Which steps in debt recovery are high-volume and rules-driven enough for self-service?
-- Where do spreadsheets and manual handoffs create duplicate work?
-- Which baseline metrics best show operational waste and revenue leakage?
+2. Where do spreadsheets, emails, and the legacy collections database create inconsistent or conflicting account information?
+
+3. Which types of delinquent accounts and recovery activities are suitable for self-service, and which require human judgement?
+
+4. Which baseline metrics best quantify operational waste, missed follow-ups, customer friction, and revenue leakage?
+
+5. Which automation opportunities could deliver the greatest 12-month financial benefit relative to their implementation effort?
+
+6. What assumptions about costs, recovery rates, agent time, and revenue uplift have the greatest impact on the ROI case?
+
+7. What operational, customer, compliance, or adoption risks could prevent agents and customers from successfully using Smart-Recovery?
 
 ## 4. Traceability starter
 
