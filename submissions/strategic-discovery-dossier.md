@@ -5,15 +5,15 @@ Legacy Trust’s debt recovery process relies on spreadsheets, email trails, and
 
 ## 2. Stakeholder overview
 
-Complete a short table like the one below.
-
 | Stakeholder group | What they care about | How success is measured | Main worry | Evidence they will trust |
 |---|---|---|---|---|
-| Operations leadership | TODO | TODO | TODO | TODO |
-| Team leaders and agents | TODO | TODO | TODO | TODO |
-| Finance | TODO | TODO | TODO | TODO |
-| Product and delivery | TODO | TODO | TODO | TODO |
-| Customers | TODO | TODO | TODO | TODO |
+| **Operations leadership** | Reducing manual work, missed follow-ups and duplicate activity, freeing agents for complex cases | Reduced handling time, fewer missed/duplicate follow-ups, improved recovery performance | Automation may not work for complex cases or may simply move work elsewhere | Process data, activity volumes, time savings and As-Is/To-Be comparison |
+| **Team leaders and agents** | A clear, reliable workflow that reduces repetitive administration and makes account status easy to see | Less reconciliation, fewer duplicate contacts, clearer hand-offs and more time for judgement-based cases | Portal creates extra work or sends difficult cases back to agents | Real workflow observations, agent feedback, exception analysis and process mapping |
+| **Finance** | Measurable savings, improved recovery and a credible financial case | 12-month ROI, implementation cost, operational savings and recovery uplift | Unreliable assumptions or overstated revenue benefits; estimated **15% revenue loss** needs evidence | Source data, transparent assumptions, sensitivity analysis and P&L calculations |
+| **Product and delivery** | Realistic scope, clear requirements and traceability from problem to solution | Clearly prioritised Phase 1, defined requirements and feasible workflows | Scope becomes too broad or recommendations cannot translate into a buildable backlog | JTBD, evidence-backed priorities, process maps and traceability |
+| **Customers** | Fast, clear and convenient ways to understand and resolve overdue accounts | Faster resolution, fewer repetitive contacts and successful self-service completion | Self-service may be confusing, restrictive or unsuitable for cases requiring human support | Customer journey data, completion rates, contact volumes and feedback |
+
+**Key stakeholder tension:** Operations and agents want less manual work, Finance wants measurable financial return, Product wants buildable scope, while customers need simple and appropriate resolution journeys. The solution therefore needs to reduce operational friction without simply transferring difficult work to agents or overstating the financial benefit.
 
 ## 3. Discovery questions
 
