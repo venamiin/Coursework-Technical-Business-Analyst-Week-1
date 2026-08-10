@@ -52,3 +52,14 @@ Legacy Trust’s debt recovery process relies on spreadsheets, email trails, and
 
 Legacy Trust’s debt recovery process is struggling to scale because agents rely on disconnected spreadsheets, email trails, and a legacy collections database to manage over 100,000 delinquent accounts. This creates avoidable manual work, duplicate activity, missed follow-ups, and inconsistent account statuses, reducing agent capacity and potentially contributing to revenue leakage. The immediate problem is not simply a lack of digital technology. It is an inefficient and fragmented recovery workflow. Legacy Trust needs to identify which high-volume, rules-driven activities can be safely simplified or automated, while keeping complex cases with agents, and prove that the highest-value opportunities can deliver measurable operational and financial benefits within 12 months.
 
+## 6. AI Review
+
+An AI review of the discovery brief identified the following areas for improvement:
+
+- Make the distinction between operational savings and revenue uplift clearer.
+- Challenge the estimated 15% revenue loss rather than treating it as fully recoverable.
+- Make the agent handoff point explicit in the future-state process.
+- Ensure Phase 1 opportunities are prioritised using evidence, value, effort, risk, and confidence.
+- Strengthen traceability between stakeholder concerns, process pain points, automation opportunities, and future requirements.
+
+These improvements have been incorporated into the discovery brief, particularly through the traceability table, discovery questions, and final problem statement.
