@@ -44,17 +44,139 @@ The stakeholder interview notes were grouped into six recurring themes based on 
 
 ## Step 3: Write JTBD statements
 
-Use the structure:
+### JTBD 1 — Prevent duplicate recovery activity
 
-**When** ...  
-**I want to** ...  
-**So that** ...
+**Theme:** Duplicate work
 
-Minimum coverage:
-- customer
-- agent
-- operations manager
-- finance partner
+**Stakeholder:** Collections Agent
+
+**Source:** SN-011 — Christopher Richards, Collections Agent  
+"The collections database does not sync with the email tracker, so agents often re-contact customers who were already promised callbacks."
+
+**When** I am preparing to contact a customer,
+
+**I want to** know whether another agent has already contacted them or scheduled a follow-up,
+
+**So that** I can avoid duplicating work and confusing the customer.
+
+---
+
+### JTBD 2 — Ensure follow-ups are completed on time
+
+**Theme:** Missed follow-up
+
+**Stakeholder:** Collections Agent
+
+**Source:** SN-040 — Catherine Frost, Data Analyst  
+"We lose at least 20% of follow-ups because they fall between shifts and no one owns the handoff."
+
+**When** an account requires follow-up across different shifts,
+
+**I want to** ensure that the follow-up remains clearly assigned and tracked,
+
+**So that** promised actions are completed on time instead of being lost between handovers.
+
+---
+
+### JTBD 3 — Maintain consistent account status
+
+**Theme:** Poor visibility and data quality
+
+**Stakeholder:** Operations Analyst
+
+**Source:** SN-085 — Jacqueline Norris, Operations Analyst  
+"There is no standard definition of what each status actually means across the team."
+
+**When** I need to understand the current status of an account,
+
+**I want to** have consistent status definitions used across the team,
+
+**So that** I can interpret account progress accurately and avoid conflicting information.
+
+---
+
+### JTBD 4 — Understand debt and available resolution options
+
+**Theme:** Customer friction
+
+**Stakeholder:** Customer perspective, observed by Dr Lynda Smith, Operations Analyst
+
+**Source:** SN-065 — Dr Lynda Smith, Operations Analyst  
+"Customers would pay more readily if they understood exactly what they owe and could see options."
+
+**When** I am trying to resolve an overdue balance,
+
+**I want to** clearly understand what I owe and what options are available to me,
+
+**So that** I can choose an appropriate way to resolve my debt.
+
+---
+
+### JTBD 5 — Produce trustworthy recovery forecasts
+
+**Theme:** Financial credibility
+
+**Stakeholder:** Finance Analyst
+
+**Source:** SN-070 — Daniel Farmer, Finance Analyst  
+"The finance team cannot forecast recovery revenue because they do not trust the activity data."
+
+**When** I am forecasting recovery revenue,
+
+**I want to** have trustworthy and consistent activity data,
+
+**So that** I can produce reliable financial forecasts and make informed decisions.
+
+---
+
+### JTBD 6 — Adopt new processes with confidence
+
+**Theme:** Change resistance and adoption
+
+**Stakeholder:** Operations Manager
+
+**Source:** SN-084 — Thomas Wright, Operations Manager  
+"Agents are afraid to try new things because they were burned by the last system update."
+
+**When** new ways of working are introduced,
+
+**I want to** have confidence that the new process will work reliably without disrupting existing responsibilities,
+
+**So that** agents can adopt the change without reverting to previous workarounds.
+
+---
+
+### JTBD 7 — Route cases according to their complexity
+
+**Theme:** Self-service suitability and human handoff
+
+**Stakeholder:** Senior Collections Team Leader
+
+**Source:** SN-079 — Gareth Evans, Senior Collections Team Leader  
+"We do not have a way to identify which cases are straightforward versus which require specialist handling."
+
+**When** an account enters the recovery process,
+
+**I want to** distinguish straightforward cases from those requiring specialist handling,
+
+**So that** each case follows an appropriate recovery path without unnecessary delay.
+
+---
+
+### JTBD 8 — Measure whether workload has actually decreased
+
+**Theme:** Financial credibility
+
+**Stakeholder:** Product Manager
+
+**Source:** SN-095 — Priya Nair, Product Manager  
+"Managers need a clear view of whether self-service actually reduces workload."
+
+**When** a new recovery process or self-service journey is introduced,
+
+**I want to** measure whether agent workload has genuinely decreased,
+
+**So that** I can determine whether the change is delivering the expected operational benefit.
 
 ## JTBD table
 
