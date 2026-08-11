@@ -178,22 +178,107 @@ The stakeholder interview notes were grouped into six recurring themes based on 
 
 **So that** I can determine whether the change is delivering the expected operational benefit.
 
-## JTBD table
+## Step 4: Prioritise the Unmet Jobs
+
+### Prioritisation Method
+
+Each JTBD is assessed against three criteria:
+
+- **Frequency of evidence:** How often and consistently the issue appears across stakeholder evidence.
+- **Business impact:** The potential effect on operational capacity, recovery performance, customer experience, financial performance or risk.
+- **Portal relevance:** How directly the job could be supported by Smart-Recovery's proposed self-service portal or connected workflow.
+
+Ratings use:
+
+- **High** = strong evidence / significant impact / strong portal relevance
+- **Medium** = moderate evidence / impact / portal relevance
+- **Low** = limited evidence / lower impact / weak portal relevance
 
 | JTBD ID | Actor | Statement | Evidence link | Portal relevance | Priority |
-|---|---|---|---|---|---|
-| JTBD-01 | TODO | TODO | TODO | TODO | TODO |
+| ------- | ----- | --------- | ------------- | ---------------- | -------- |
+| **JTBD-01** | Collections Agent | **When I am preparing to contact a customer, I want to know whether another agent has already contacted them or scheduled a follow-up, so that I can avoid duplicating work and confusing the customer.** | SN-011, SN-028, SN-038, SN-063, SN-087 | **High** | **High** |
+| **JTBD-02** | Collections Agent | **When an account requires follow-up across different shifts, I want to ensure that the follow-up remains clearly assigned and tracked, so that promised actions are completed on time instead of being lost between handovers.** | SN-040, SN-053, SN-105, SN-118 | **High** | **High** |
+| **JTBD-03** | Operations Analyst | **When I need to understand the current status of an account, I want to have consistent status definitions used across the team, so that I can interpret account progress accurately and avoid conflicting information.** | SN-015, SN-056, SN-085, SN-107, SN-122, SN-123 | **Medium** | **High** |
+| **JTBD-04** | Customer perspective | **When I am trying to resolve an overdue balance, I want to clearly understand what I owe and what options are available to me, so that I can choose an appropriate way to resolve my debt.** | SN-001, SN-002, SN-017, SN-036, SN-047, SN-065, SN-081 | **High** | **High** |
+| **JTBD-05** | Finance Analyst | **When I am forecasting recovery revenue, I want to have trustworthy and consistent activity data, so that I can produce reliable financial forecasts and make informed decisions.** | SN-031, SN-048, SN-067, SN-070, SN-071, SN-096 | **Low** | **Medium** |
+| **JTBD-06** | Operations Manager | **When new ways of working are introduced, I want to have confidence that the new process will work reliably without disrupting existing responsibilities, so that agents can adopt the change without reverting to previous workarounds.** | SN-013, SN-018, SN-084, SN-090, SN-097, SN-108, SN-110 | **Low** | **Medium** |
+| **JTBD-07** | Senior Collections Team Leader | **When an account enters the recovery process, I want to distinguish straightforward cases from those requiring specialist handling, so that each case follows an appropriate recovery path without unnecessary delay.** | SN-003, SN-029, SN-039, SN-054, SN-055, SN-079, SN-082 | **High** | **High** |
+| **JTBD-08** | Product Manager | **When a new recovery process or self-service journey is introduced, I want to measure whether agent workload has genuinely decreased, so that I can determine whether the change is delivering the expected operational benefit.** | SN-095 | **Medium** | **Medium** |
 
-## Step 4: Top 3 justification
+### Top 3 Unmet Jobs
 
-For each of your top 3 JTBDs, write:
-- why it matters now
-- which evidence supports it
-- how it should influence Phase 1
+#### 1. JTBD-02 — Ensure follow-ups are completed on time
 
-## Quality check
+**Why this matters now**
 
-Ask yourself:
-- Does this describe a need instead of a feature?
-- Would the job still exist if the screen or tool changed?
-- Can I point to real evidence behind the priority?
+Missed and delayed follow-ups are directly connected to recovery performance. The evidence indicates that at least **20% of follow-ups are lost between shifts** because ownership of the handoff is unclear. Cases can also remain in "pending callback" status indefinitely because callback dates are not enforced.
+
+This makes the job both frequent and financially relevant. Improving follow-up continuity could reduce stalled cases and prevent payment opportunities from being missed.
+
+**Evidence supporting it**
+
+- **SN-040 — Catherine Frost, Data Analyst:** "We lose at least 20% of follow-ups because they fall between shifts and no one owns the handoff."
+- **SN-053 — Dr Louis Sinclair, Service Design Lead:** "Cases get stuck in 'pending callback' status indefinitely because the callback date is never enforced."
+- **SN-118 — Amina Rahman, Head of Debt Recovery Operations:** "Cases get stuck in 'pending callback' status indefinitely because the callback date is never enforced."
+- **SN-052 — Lawrence Bennett, Collections Agent:** "If we can reduce the time between identifying a payment opportunity and making contact, we win."
+
+**Phase 1 scope implication**
+
+Phase 1 should prioritise straightforward follow-up journeys where ownership, timing and next actions can be made clear. The future-state process should show how follow-ups are tracked and when an agent needs to intervene.
+
+---
+
+#### 2. JTBD-01 — Prevent duplicate recovery activity
+
+**Why this matters now**
+
+Agents are spending time checking whether work has already been completed, while customers can be contacted multiple times because information is spread across different systems. This creates unnecessary handling, customer frustration and operational waste.
+
+The evidence repeatedly identifies this problem across agents and operations stakeholders, making it one of the strongest recurring themes. 
+
+**Evidence supporting it**
+
+- **SN-011 — Christopher Richards, Collections Agent:** "The collections database does not sync with the email tracker, so agents often re-contact customers who were already promised callbacks."
+- **SN-028 — Diana White, Collections Agent:** "Customers go through the contact process multiple times because we have no way to prevent re-contact."
+- **SN-038 — Sylvia Turner, Operations Analyst:** "The biggest win will be when agents stop checking whether work was already done."
+- **SN-063 — Mr Martyn Akhtar, Operations Analyst:** "I cannot tell which customers have already been contacted this month without manually checking three different sheets."
+- **SN-087 — Mr Dale Jackson, Collections Agent:** "We are paying agents to hunt for information that should already be on the screen."
+
+**Phase 1 scope implication**
+
+Phase 1 should address straightforward account activity and contact-history visibility so that customers and agents are not repeatedly contacted unnecessarily. The To-Be process should establish a clear source of current activity before another recovery action is taken.
+
+---
+
+#### 3. JTBD-07 — Route cases according to their complexity
+
+**Why this matters now**
+
+The current process mixes straightforward and complex cases, meaning simple cases can be delayed while agents spend time dealing with cases requiring specialist judgement. This is particularly important for Smart-Recovery because not every account should enter a self-service journey.
+
+The evidence supports a clear distinction between routine cases and cases involving specialist handling or human judgement.
+
+**Evidence supporting it**
+
+- **SN-003 — Priya Nair, Operations Manager:** "Simple cases that could be resolved in minutes take days because they get stuck in the wrong queue."
+- **SN-029 — Barry Skinner, Operations Analyst:** "Straightforward cases get delayed because they are queued behind complex ones with no priority logic."
+- **SN-039 — Simon Burns, Compliance Liaison:** "We do not have a way to identify which cases are straightforward versus which require specialist handling."
+- **SN-054 — Eleanor Clark, Service Design Lead:** "We have edge cases involving hardship, vulnerability, and regulatory forbearance that need human judgment."
+- **SN-055 — Jacqueline Norris, Operations Analyst:** "Some cases must stay agent-led because risk and specialist rules still apply."
+- **SN-082 — Sarah Mitchell, Collections Agent:** "Self-service works well for straightforward cases, but we need to be honest about which ones those are."
+
+**Phase 1 scope implication**
+
+Phase 1 should focus on clearly defined, straightforward recovery journeys while keeping complex and specialist cases agent-led. The To-Be process must explicitly show the eligibility decision and the handoff point to an agent.
+
+---
+
+## Why These Are the Top 3
+
+These three jobs are prioritised because they combine strong evidence with direct operational impact and clear relevance to Smart-Recovery.
+
+1. **JTBD-02 — Follow-up continuity:** Directly addresses missed recovery opportunities and has explicit evidence of a 20% follow-up loss.
+2. **JTBD-01 — Duplicate activity:** Repeatedly identified by agents and operations staff and represents avoidable handling and customer friction.
+3. **JTBD-07 — Case routing:** Essential to making self-service realistic because it determines which cases can follow a straightforward journey and which require human judgement.
+
+Together, these priorities support the Phase 1 principle of **automating straightforward work without simply moving complex work back onto agents**.
